@@ -26,12 +26,9 @@ pool:
   # max: 10
 
 bindIP: 0.0.0.0
-
 logLevel: info
 logFormat: default
-
 offline: false
 ha: false
 dataPath: ./data
-
 bodyParserLimit: 5mb
