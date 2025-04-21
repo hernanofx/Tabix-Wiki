@@ -2,10 +2,10 @@ port: 3000
 
 db:
   type: postgres
-  url: postgres://u4dtoqj0aq9e0c:p09513c32a4ea2e1ece3141d19625c68256b1d7851f90b0269573cc3180d26f03@c3gtj1dt5vh48j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d42biknv9hcbhf?sslmode=require
+  url: postgres://u4dtoqj0aq9e0c:p09513c32a4ea2e1ece3141d19625c68256b1d7851f90b0269573cc3180d26f03@c3gtj1dt5vh48j.cluster-czrs8kj4isg7.us-east-1.rds.amazonaws.com:5432/d42biknv9hcbhf
   ssl: true
   sslOptions:
-    auto: true
+    rejectUnauthorized: false
   schema: public
 
 ssl:
